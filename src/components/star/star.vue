@@ -67,9 +67,9 @@
           bg-image('star48_off')
     &.star-36
       .star-item
-        width: 20px
-        height: 20px
-        margin-right: 16px
+        width: 15px
+        height: 15px
+        margin-right: 6px
         background-size: 15px 15px
         &:last-child
           margin-right: 0
