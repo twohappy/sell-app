@@ -93,7 +93,6 @@
     },
     methods: {
       needShow(type, text) {
-        console.log('pan');
         if (this.onlyContent && !text) {
           return false;
         }

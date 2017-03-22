@@ -45,7 +45,7 @@ apiRoutes.get('/ratings',function (req,res) {
 
 app.use('/api', apiRoutes);
 
-var compiler = webpack(webpackConfig)
+var compiler = webpack(webpackConfig);
 
 var devMiddleware = require('webpack-dev-middleware')(compiler, {
   publicPath: webpackConfig.output.publicPath,
